@@ -9,7 +9,3 @@ admin: 'Admin User',
 editor: 'Editor User',
 guest: 'Guest User',
 };
-
-console.log(RoleDescription);
-
-export{}

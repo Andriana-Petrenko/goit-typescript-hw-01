@@ -5,8 +5,8 @@ email: string;
 password: string;
 }
 
-function createOrUpdateUser<UserInfo>(initialValues: Partial<UserInfo>) {
-    // return {...initialValues}
+function createOrUpdateUser(initialValues: Partial<UserInfo>) {
+    return {...initialValues}
 }
 
 createOrUpdateUser({ 
